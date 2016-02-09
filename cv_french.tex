@@ -1,0 +1,83 @@
+\documentclass[11pt,a4paper,sans]{moderncv}
+\moderncvstyle{casual} 
+\moderncvcolor{blue}
+\setlength{\hintscolumnwidth}{2cm} 
+\usepackage[utf8]{inputenc}
+\usepackage[scale=0.9]{geometry}
+\usepackage{helvet}
+\usepackage[french]{babel}
+\name{Mickaël}{Moreau}
+\title{Ingénieur en micro-électronique} 
+\address{50 lotissement Rivoire de la Dame}{38360 Sassenage, France}
+\phone[mobile]{06~88~33~15~88}
+%\phone[fixed]{01~01~88~33~55}
+%\phone[fax]{02~11~22~33~44}
+\email{mickael.moreau@gmail.com}
+%\homepage{www.pierredurand.com}
+%\social[linkedin]{pierre.durand}
+%\social[twitter]{pierre.durand}
+%\social[github]{pierre.durand}
+\extrainfo{41 ans - Marié - 3 enfants}
+%\photo[64pt][0.4pt]{maphoto}
+%\quote{Ingénieur en micro-électronique}
+\begin{document}
+\makecvtitle
+\section{Experience professionnelle}
+\cventry{2014}{Ingénieur vérification d’IP graphique}{STMicroelectronics}{Grenoble}{}%
+{%
+\begin{itemize}%
+\item Modernisation de l'environnement (ex : Git, Jenkins,..).
+\item Développement des LLD (Low-Level Driver)
+\end{itemize}}
+
+\cventry{2008--2014}{Ingénieur vérification en centrale}{STMicroelectronics}{Grenoble}{}%
+{%
+\begin{itemize}%
+\item Développement, évaluation et déploiement des outils de vérification :
+ \begin{itemize}%
+ \item \textit{Verification-Cockpit} : environnement de vérification générique.
+\item Base de données MySQL pour enregistrer l'historique de la vérification.
+\item Rapport pour suivre l'évolution de la vérification.
+\item Environnement de vérification pour la nouvelle génération de SOC.
+\end{itemize}
+\item Prise en charge des benchmarks des simulateurs (RTL et Gates).
+\end{itemize}}
+
+\cventry{2006--2008}{Ingénieur CAD support}{STMicroelectronics}{Grenoble}{}%
+{%
+\begin{itemize}%
+\item Installation des logiciels et des licences.
+\item Support des outils de vérifications et de simulations.
+\item Développement et support des outils de navigation.
+\end{itemize}}
+
+\cventry{1999--2006}{Ingénieur en analyse de défaillance électrique}{STMicroelectronics}{Grenoble}{}{%
+\begin{itemize}
+\item Développement et déploiement de techniques de localisation grâce aux outils EDA 
+\item Management des outils de navigation
+\end{itemize}}
+
+\section{Formation}
+\cventry{1995--1998}{\'Ecole d'ingénieur}{Supélec}{Rennes}{\textit{Options micro-électronique}}{}
+\cventry{1991--1995}{\'Ecole préparatoire TA}{Lycée Léonce Vieljeux}{La Rochelle}{}{}
+\cventry{1989--1991}{BAC F2 électronique}{Lycée Louis Armand}{Poitiers}{}{}
+\cventry{1987--1989}{BEP électronique}{Lycée Edouard Branly}{Châtellerault}{}{}
+
+\section{Langues}
+\cvitemwithcomment{Anglais}{Lu, parlé, écrit}{}
+
+\section{Compétences informatiques}
+\cvdoubleitem{Simulateur}{NCsim, VCS, Questa, Eldo}{Verification}{Specman, Certitude, vManager}
+\cvdoubleitem{ATPG}{TetraMax}{LVS}{Calibre}
+\cvdoubleitem{Languages}{Perl, Tcl, Java, C/C++, SQL}{HDL}{VHDL, Verilog, e, SystemC}
+\cvdoubleitem{BI}{BIRT, QlikView}{Autres}{Git, Subversion, Jenkins}
+
+\section{Conférences}
+\cventry{2012}{DAC}{\fontsize{10}{11}\selectfont "Integration of Enterprise Manager SQL database in Verification-Cockpit"}{Poster}{}{}
+\cventry{2009}{DVCON}{\fontsize{10}{11}\selectfont "Unified Formal and Dynamic Verification Closure: Can Mutations Bridge the Gap?"}{Papier}{}{}
+
+\section{Centres d'intérêts}
+\cvdoubleitem{Culture}{Cinéma, Séries TV, Musique}{Informatique}{Jeux vidéo}
+\cvitem{Sport}{Vélo et Badminton}
+
+\end{document}
